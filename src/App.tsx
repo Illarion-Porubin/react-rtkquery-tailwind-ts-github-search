@@ -6,12 +6,11 @@ import { Navigation } from "./components/Navigations";
 function App() {
   return (
     <>
-    <Navigation/>
+      <Navigation />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/favorite" element={<FavoritePage />} />
+        <Route path="/favorites" element={<FavoritePage />} />
       </Routes>
-      <h1 className="font-bold text-center mt-10">Hello world!</h1>
     </>
   );
 }
